@@ -49,7 +49,7 @@ public class ImageProcessing {
 
     }
 
-    public void GrayScale2(String _input, String _output, String format_output) {
+    public void GrayScale2(String _input, String _output, String format_output) throws IOException {
         input = new File(_input);
         output = new File(_output);
 
